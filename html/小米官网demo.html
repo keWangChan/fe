@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小米商城</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+
+        ul,ol {
+            list-style: none;
+        }
+
+        .md {
+            width: 1226px;
+            margin: 0 auto;
+        }
+
+        .clearfix:after {
+            content: '.';
+            display: block;
+            height: 0;
+            visibility: hidden;
+            clear: both;
+        }
+
+        .navBar {
+            height: 40px;
+            background-color: #333;
+            font-size: 12px;
+        }
+
+        .navBarContent .barLeft {
+            float: left;
+        }
+        .navBarContent .barRight {
+            float: right;
+        }
+        .navBar .barLeft li,.navBar .barRight li {
+            height: 40px;
+            line-height: 40px;
+            display: inline-block;
+        }
+
+        .navBar .barLeft li a,.navBar .barRight li a {
+            color: #b0b0b0;
+        }
+        .navBar .barLeft li a:hover{
+            color: #fff;
+        }
+        .navBar .barRight .btnGroup{
+            color: #fff;
+        }
+        .navBar .barLeft li span,.navBar .barRight li span{
+            margin-left: 5px;
+            color: #424242;
+        }
+        .navBar .barRight .btnGroup{
+            display: inline-block;
+        }
+        .shoppingCar{
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+            width: 120px;
+            background-color: #424242;
+        }
+
+        .navBar .barRight .shoppingCar:hover{
+            background-color: #fff;
+        }
+        .navBar .barRight .shoppingCar a:hover{
+            color: #ff6700;
+        }
+        .navBar .barRight .shoppingCar img{
+            margin-left: 10px;
+            margin-right: 4px;
+            width: 20px;
+            vertical-align: -4px;
+        }
+        .navBar .barRight .shoppingCar a{
+            display: inline-block;
+            color: #b0b0b0;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="navBar">
+        <div class="navBarContent  clearfix md ">
+            <div class="barLeft">
+                <ul>
+                    <li><a href="">小米商城</a><span>|</span></li>
+                    <li><a href="">小米商城</a><span>|</span></li>
+                    <li><a href="">小米商城</a><span>|</span></li>
+                    <li><a href="">小米商城</a><span>|</span></li>
+                    <li><a href="">小米商城</a><span>|</span></li>
+                    <li><a href="">小米商城</a><span>|</span></li>
+                    <li><a href="">小米商城</a><span>|</span></li>
+                    <li><a href="">小米商城</a><span>|</span></li>
+                    <li><a href="">小米商城</a><span>|</span></li>
+                    <li><a href="">小米商城</a><span>|</span></li>
+                    <li><a href="">小米商城</a><span>|</span></li>
+                    <li><a href="">小米商城</a><span>|</span></li>
+                    <li><a href="">小米商城</a><span>|</span></li>
+                </ul>
+            </div>
+            <div class="barRight">
+                <div class="btnGroup">
+                    <ul>
+                        <li><a href="">登錄</a><span>|</span></li>
+                        <li><a href="">註冊</a><span>|</span></li>
+                        <li><a href="">消息通知</a><span>|</span></li> 
+                    </ul>
+                </div>
+                <div class="shoppingCar">
+                    <a href=""><img src="shoppingCar.png" alt=""></a>               
+                    <a href="">購物車  (0)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
